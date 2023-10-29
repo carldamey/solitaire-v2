@@ -47,8 +47,9 @@ If you manage to win, you will receive a score based on the amount of moves (car
 - Make card size responsive to view window size
 - Add audio feedback to moves
 - Fix minor issue with moving kings to ace slots
-- Improve visuals of final score card
+- Change victory screen to different page
 - Allow resetting after win in a clean fashion
+- Make selected card's outline more visible
 
 ## Current Bugs
 - Timer continues to run after game ends
@@ -59,6 +60,7 @@ If you manage to win, you will receive a score based on the amount of moves (car
 ### v2.0 - 10/29/2023:
 - Moves game to MEN stack format
 - Shortens space between cards to save screen space
+- Spaces ace piles further from the tableau
 
 ## Original Pitch
 

@@ -224,7 +224,7 @@ function render() {
 
 			aceDivArr[acePiles.indexOf(acePile)].appendChild(newCardEl)
 		})
-		// Render tableau
+		// Render Tableau
 	columnDivArr.forEach(columnDiv => columnDiv.innerHTML = "")
 	tableau.forEach(column => {
 			if (column.length === 0) {
