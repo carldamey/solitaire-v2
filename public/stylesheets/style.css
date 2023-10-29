@@ -1,8 +1,140 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(77, 58, 9);
 }
 
-a {
-  color: #00B7FF;
+body {
+  background-color: rgb(0, 128, 0);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: black;
+  border: 1vmin solid white;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 50%;
+  padding: 10vmin;
+  justify-self: center
+;}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+#menu-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4vmin;
+  background-color: rgb(0, 100, 0);
+  border-bottom: .2vmin dashed rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+
+#ace-piles {
+  display: flex;
+  height: 20vmin;
+  justify-content: space-evenly;
+  margin-top: 4vmin;
+}
+
+.ace-pile {
+  margin: 3vmin, 3vmin, 0;
+  
+}
+
+#tableau {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#draw-piles {
+  display: flex;
+  align-self: baseline;
+  margin: 5vmin
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vmin;
+}
+
+.column > .card {
+  margin-top: -80%;
+}
+
+.column > .card:not(.outline) {
+  border: .5vmin solid rgb(226, 226, 226);
+}
+
+.card.xx {
+  border: .5vmin solid rgb(255, 255, 255);
+}
+
+.ace-pile > .card:not(.outline) {
+  border: .5vmin solid rgb(226, 226, 226);
+}
+
+.card:hover:not(.xx) {
+  background-color: rgb(226, 226, 226);
+  border-color: lightgray;
+}
+
+.card:active:not(.xx) {
+background-color: white;
+}
+
+#stock-pile:not(.outline) {
+  border: .5vmin solid rgb(226, 226, 226)
+}
+
+#stock-pile:hover {
+  background-color: rgb(226, 226, 226);
+  border-color: lightgray;
+}
+
+#waste-pile:not(.outline) {
+  border: .5vmin solid lightgray;
+}
+
+#reset-button {
+  background-color: burlywood;
+  font-size: medium;
+  padding: .5vmin;
+  width: 10vmin;
+  border-radius: 20%;
+  border: .25vmin solid black;
+}
+
+#reset-button:hover {
+  background-color: rgb(77, 58, 9);
+  color: burlywood;
+}
+
+#reset-button:active {
+  background-color: lightgray;
+  color: gray;
+}
+
+#moves {
+  background-color: burlywood;
+  padding: .5vmin;
+  border-radius: 20%;
+  border: .25vmin solid black;
+}
+
+#timer {
+  background-color: burlywood;
+  padding: .5vmin;
+  border-radius: 20%;
+  border: .25vmin solid black;
 }
