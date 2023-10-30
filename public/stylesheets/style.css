@@ -21,11 +21,17 @@ h1 {
 	justify-self: center;
 }
 
-#game {
+#ace-tableau {
 	display: flex;
 	flex-direction: column;
 	width: 1080px;
 	margin: 0 auto;
+  margin-left: 0;
+}
+
+#game {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 #menu-bar {
@@ -58,8 +64,13 @@ h1 {
 
 #draw-piles {
 	display: flex;
-	align-self: baseline;
-	margin: 5vmin;
+	align-self: end;
+	margin: 10vmin;
+}
+
+#tableau-draw {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .column {

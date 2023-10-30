@@ -44,9 +44,8 @@ If you manage to win, you will receive a score based on the amount of moves (car
 
 ## Icebox Features
 - Add consistency in CSS color formats
-- Move Draw & Waste Piles away from Tableau
 - Add Ability to View Rules During Gameplay
-- Display the top 3 Waste Pile cards as opposed to just the top one
+- Display the top 3 Waste Pile cards as opposed to just the top one (take note of how they don't shift positions to keep 3 in other games)
 - Improve styling with gradients and other similar changes (include fallbacks and moz)
 - Make card size responsive to view window size
 - Add audio feedback to moves
@@ -56,6 +55,8 @@ If you manage to win, you will receive a score based on the amount of moves (car
 - Make selected card's outline more visible
 - Add table of contents to README
 - Signify amount of cards in draw pile & waste pile
+- Finalize scoring system
+- Fix Draw Piles in place, as not to move when the tableau expands
 
 ## Current Bugs
 - Victory screen does not reset when resetting game
@@ -66,6 +67,7 @@ If you manage to win, you will receive a score based on the amount of moves (car
  - Updates formatting in primary files
  - Updates routing & routers
  - Fixes bug causing timer to continue after game ends
+ - Moves Stock & Waste Piles away from Tableau
 ### v2.0 - 10/29/2023:
 - Moves game to MEN stack format
 - Shortens space between cards to save screen space
