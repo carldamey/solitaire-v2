@@ -345,7 +345,7 @@ function render() {
 
 	// Display Win Message
 	if (winState) {
-		clearInterval(incrementTimer)
+		clearInterval(timerInterval)
 		game.innerHTML = `<h1>YOUR SCORE IS: ${Math.trunc(
 			(30 - timerMin / moveCounter) * 10,
 		)}<h1>`
@@ -366,3 +366,8 @@ function incrementTimer() {
 		timerSec,
 	).padStart(2, 0)}`
 }
+
+
+// force win for debugging
+// acePiles = [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,],[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,],[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,],[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,]]
+// checkWin()
