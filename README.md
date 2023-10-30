@@ -55,6 +55,7 @@ If you manage to win, you will receive a score based on the amount of moves (car
 - Change victory screen to different page
 - Allow resetting after win in a clean fashion
 - Make selected card's outline more visible
+- Add table of contents to README
 
 ## Current Bugs
 - Timer continues to run after game ends
@@ -62,6 +63,8 @@ If you manage to win, you will receive a score based on the amount of moves (car
 - Final King takes multiple moves to get into ace pile (does it use a move?)
 
 ## Update Log
+### v2.1 - 10
+ - Updates formatting in primary files
 ### v2.0 - 10/29/2023:
 - Moves game to MEN stack format
 - Shortens space between cards to save screen space

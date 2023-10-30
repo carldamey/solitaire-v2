@@ -1,0 +1,30 @@
+<%- include("../partials/header") %>
+
+<div id="menu-bar">
+	<span id="moves">MOVES: 0</span>
+	<span id="timer">TIME: 00:00</span>
+	<button id="reset-button">RESET</button>
+</div>
+<div id="game">
+	<div id="ace-piles">
+		<div class="ace-pile" id="ace0"></div>
+		<div class="ace-pile" id="ace1"></div>
+		<div class="ace-pile" id="ace2"></div>
+		<div class="ace-pile" id="ace3"></div>
+	</div>
+	<div id="tableau">
+		<div class="column" id="col0"></div>
+		<div class="column" id="col1"></div>
+		<div class="column" id="col2"></div>
+		<div class="column" id="col3"></div>
+		<div class="column" id="col4"></div>
+		<div class="column" id="col5"></div>
+		<div class="column" id="col6"></div>
+	</div>
+	<div id="draw-piles">
+		<div id="stock-pile" class="card xlarge"></div>
+		<div id="waste-pile" class="card xlarge"></div>
+	</div>
+</div>
+
+<%- include("../partials/footer") %>
