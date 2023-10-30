@@ -1,9 +1,8 @@
 var express = require("express")
 var router = express.Router()
 
-/* GET users listing. */
 router.get("/", function (req, res, next) {
-  res.render("game/main", {title: "Solitaire"})
+	res.render("game/main", {title: "Solitaire"})
 })
 
 module.exports = router

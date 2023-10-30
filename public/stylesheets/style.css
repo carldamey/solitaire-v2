@@ -26,12 +26,12 @@ h1 {
 	flex-direction: column;
 	width: 1080px;
 	margin: 0 auto;
-  margin-left: 0;
+	margin-left: 0;
 }
 
 #game {
-  display: flex;
-  flex-direction: row-reverse;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 #menu-bar {
@@ -69,8 +69,8 @@ h1 {
 }
 
 #tableau-draw {
-  display: flex;
-  flex-direction: row-reverse;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 .column {
