@@ -8,10 +8,14 @@ This game was independently developed over the course of a week as a bootcamp su
 
 ## Technologies Used
 ### Languages: 
-- Javascript
+- JavaScript
 - HTML
 - CSS
 ###  Frameworks: 
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 - CSS Card Library - https://github.com/jhdo95/War/tree/main/css/card-library
 ### Software:
 - VSCodium - https://vscodium.com/
@@ -46,6 +50,7 @@ If you manage to win, you will receive a score based on the amount of moves (car
 - Improve styling with gradients and other similar changes
 - Make card size responsive to view window size
 - Add audio feedback to moves
+- Add mute option
 - Fix minor issue with moving kings to ace slots
 - Change victory screen to different page
 - Allow resetting after win in a clean fashion
