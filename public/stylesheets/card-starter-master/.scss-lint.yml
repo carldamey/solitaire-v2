@@ -15,4 +15,3 @@ linters:
     style: double_quotes
   UnnecessaryMantissa:
     enabled: false
-

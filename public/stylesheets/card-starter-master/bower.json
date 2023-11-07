@@ -1,13 +1,11 @@
 {
-  "name": "card-starter",
-  "version": "0.1.2",
-  "description": "Quick start templates for browser-based games that use a standard, 52-card deck.",
-  "main": "css/cardstarter.css",
-  "authors": [
-    "Philip Hughes <p+npm@hews.co> (http://hews.co)"
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/hews/card-starter",
-  "moduleType": ["global"],
-  "ignore": []
+	"name": "card-starter",
+	"version": "0.1.2",
+	"description": "Quick start templates for browser-based games that use a standard, 52-card deck.",
+	"main": "css/cardstarter.css",
+	"authors": ["Philip Hughes <p+npm@hews.co> (http://hews.co)"],
+	"license": "MIT",
+	"homepage": "https://github.com/hews/card-starter",
+	"moduleType": ["global"],
+	"ignore": []
 }
