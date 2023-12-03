@@ -43,7 +43,7 @@ const counterEl = document.getElementById("moves")
 const menuBarEl = document.getElementById("menu-bar")
 
 /*----- event listeners -----*/
-gameDiv.addEventListener("click", event => selectCard(event))
+gameDiv.addEventListener("click", (event) => selectCard(event))
 stockPileDiv.addEventListener("click", draw)
 resetButton.addEventListener("click", init)
 
@@ -100,7 +100,7 @@ function init() {
 }
 
 function revealCards() {
-	tableau.forEach(column => {
+	tableau.forEach((column) => {
 		if (column.length > 0 && column[column.length - 1].suit === "x") {
 			const revealedCard = deck[0]
 			deck.shift()
@@ -117,7 +117,7 @@ function draw() {
 			wastePile.unshift(drawingCard)
 		}
 	} else if (stockPile.length > 0) {
-		stockPile.forEach(card => {
+		stockPile.forEach((card) => {
 			stockPile.shift()
 			wastePile.unshift(card)
 		})
@@ -293,8 +293,8 @@ function selectCard(event) {
 
 function render() {
 	// Render Ace Piles
-	aceDivArr.forEach(aceDiv => (aceDiv.innerHTML = ""))
-	acePiles.forEach(acePile => {
+	aceDivArr.forEach((aceDiv) => (aceDiv.innerHTML = ""))
+	acePiles.forEach((acePile) => {
 		const newCardEl = document.createElement("div")
 		if (acePile.length === 0)
 			newCardEl.classList.add("card", "large", "outline")
@@ -314,14 +314,14 @@ function render() {
 		aceDivArr[acePiles.indexOf(acePile)].appendChild(newCardEl)
 	})
 	// Render Tableau
-	columnDivArr.forEach(columnDiv => (columnDiv.innerHTML = ""))
-	tableau.forEach(column => {
+	columnDivArr.forEach((columnDiv) => (columnDiv.innerHTML = ""))
+	tableau.forEach((column) => {
 		if (column.length === 0) {
 			const newCardEl = document.createElement("div")
 			newCardEl.classList.add("card", "large", "outline")
 			columnDivArr[tableau.indexOf(column)].appendChild(newCardEl)
 		} else
-			column.forEach(card => {
+			column.forEach((card) => {
 				const newCardEl = document.createElement("div")
 				newCardEl.classList.add("card", "large", `${card.suit}${card.rank}`)
 				newCardEl.id = `${card.suit}${card.rank}`
@@ -353,7 +353,7 @@ function render() {
 }
 
 function checkWin() {
-	if (acePiles.every(acePile => acePile.length === 13)) winState = true
+	if (acePiles.every((acePile) => acePile.length === 13)) winState = true
 }
 
 function incrementTimer() {
