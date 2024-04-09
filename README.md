@@ -1,6 +1,6 @@
 # Solitaire v2
 
-https://solitaire-a671.onrender.com/game
+https://solitaire-a671.onrender.com/game](https://solitaire-v2-e4d855395590.herokuapp.com/
 
 ![Solitaire Screenshot](/public/images/Solitaire%20Screenshot.png)
 Klondike solitaire is the most commonly known and played version of the Solitaire family of card games. It is fondly remembered by those who grew up on older Windows operating systems, especially those without internet access, as many of these operating systems came with it installed alongside lackluster video editing software and strange royalty-free mp3s.
